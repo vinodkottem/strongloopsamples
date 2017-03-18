@@ -6,7 +6,7 @@ var token, userid;
 var lastCheck = new Date('1/1/2000');
 //how often to check for data
 var INTERVAL = 2 * 1000;
-
+ 
 $(document).ready(function() {
 	$postsDiv = $('#postsDiv');
 	$registerButton = $('#registerButton');
